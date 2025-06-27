@@ -1,0 +1,10 @@
+IGUI_TR = {
+IGUI_Shortcut_RowCount = "Satır sayısı",
+IGUI_Shortcut_ColumnCount = "Sütun sayısı",
+IGUI_Shortcut_SlotSize = "Yuva boyutu",
+IGUI_Shortcut_ControlWidgetPosition = "Arayüz konumunu kontrol et",
+IGUI_Shortcut_ResetSettings = "Sıfırla",
+IGUI_Shortcut_BackgroundAlpha = "Arkaplan saydamlığı",
+IGUI_Shortcut_SlotAlpha = "Yuva saydamlığı",
+IGUI_Shortcut_Hotkey = "Kısayol tuşu",
+}

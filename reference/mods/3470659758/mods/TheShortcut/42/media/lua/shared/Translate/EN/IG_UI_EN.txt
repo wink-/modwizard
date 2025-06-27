@@ -1,0 +1,11 @@
+IGUI_EN = {
+    IGUI_Shortcut_RowCount = "Row Count",
+    IGUI_Shortcut_ColumnCount = "Column Count",
+    IGUI_Shortcut_SlotSize = "Slot Size",
+    IGUI_Shortcut_ControlWidgetPosition = "Control Widget Direction",
+    IGUI_Shortcut_ResetSettings = "Reset All",
+    IGUI_Shortcut_BackgroundAlpha = "Background Transparency",
+    IGUI_Shortcut_SlotAlpha = "Slot Transparency",
+    IGUI_Shortcut_Hotkey = "Hotkey",
+
+}

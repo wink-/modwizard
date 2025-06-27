@@ -1,0 +1,10 @@
+IGUI_PTBR = {
+    IGUI_Shortcut_RowCount = "Contagem de linhas",
+    IGUI_Shortcut_ColumnCount = "Contagem de colunas",
+    IGUI_Shortcut_SlotSize = "Tamanho da caixa de interface",
+    IGUI_Shortcut_ControlWidgetPosition = "Controlar a posição da interface",
+    IGUI_Shortcut_ResetSettings = "Redefinir as configurações",
+    IGUI_Shortcut_BackgroundAlpha = "Transparência do fundo da interface",
+    IGUI_Shortcut_SlotAlpha = "Transparência da caixa de interface",
+    IGUI_Shortcut_Hotkey = "Tecla de atalho",
+}

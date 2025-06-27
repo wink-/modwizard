@@ -1,0 +1,10 @@
+IGUI_RU = {
+    IGUI_Shortcut_RowCount = "Количество строк",
+    IGUI_Shortcut_ColumnCount = "Количество столбцов",
+    IGUI_Shortcut_SlotSize = "Размер слота",
+    IGUI_Shortcut_ControlWidgetPosition = "Управление положением виджета",
+    IGUI_Shortcut_ResetSettings = "Сбросить всё",
+    IGUI_Shortcut_BackgroundAlpha = "Прозрачность фона",
+    IGUI_Shortcut_SlotAlpha = "Прозрачность слота",
+    IGUI_Shortcut_Hotkey = "Горячая клавиша",
+}

@@ -1,0 +1,10 @@
+IGUI_UA = {
+    IGUI_Shortcut_RowCount = "Кількість рядків",
+    IGUI_Shortcut_ColumnCount = "Кількість стовпчиків",
+    IGUI_Shortcut_SlotSize = "Розмір слота",
+    IGUI_Shortcut_ControlWidgetPosition = "керування положенням віджету",
+    IGUI_Shortcut_ResetSettings = "Скинути все",
+    IGUI_Shortcut_BackgroundAlpha = "Прозорість фону",
+    IGUI_Shortcut_SlotAlpha = "Прозорість слоту",
+    IGUI_Shortcut_Hotkey = "Гаряча клавіша",
+}

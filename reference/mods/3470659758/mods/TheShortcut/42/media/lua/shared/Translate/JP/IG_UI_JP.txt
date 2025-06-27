@@ -1,0 +1,10 @@
+IGUI_JP = {
+    IGUI_Shortcut_RowCount = "行数",
+    IGUI_Shortcut_ColumnCount = "列数",
+    IGUI_Shortcut_SlotSize = "スロットサイズ",
+    IGUI_Shortcut_ControlWidgetPosition = "ウィジェットの方向",
+    IGUI_Shortcut_ResetSettings = "すべてリセット",
+    IGUI_Shortcut_BackgroundAlpha = "背景の透明度",
+    IGUI_Shortcut_SlotAlpha = "スロットの透明度",
+    IGUI_Shortcut_Hotkey = "ホットキー",
+}

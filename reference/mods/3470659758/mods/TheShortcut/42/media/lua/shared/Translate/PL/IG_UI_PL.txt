@@ -1,0 +1,10 @@
+IGUI_PL = {
+    IGUI_Shortcut_RowCount = "Liczba wierszy",
+    IGUI_Shortcut_ColumnCount = "Liczba kolumn",
+    IGUI_Shortcut_SlotSize = "Rozmiar slotu",
+    IGUI_Shortcut_ControlWidgetPosition = "Kierunek widżetu sterującego",
+    IGUI_Shortcut_ResetSettings = "Zresetuj wszystko",
+    IGUI_Shortcut_BackgroundAlpha = "Przezroczystość tła",
+    IGUI_Shortcut_SlotAlpha = "Przezroczystość slotu",
+    IGUI_Shortcut_Hotkey = "Skrót klawiszowy",
+}

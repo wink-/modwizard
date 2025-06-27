@@ -1,0 +1,10 @@
+IGUI_TH = {
+    IGUI_Shortcut_RowCount = "จำนวนแถว",
+    IGUI_Shortcut_ColumnCount = "จำนวนคอลัมน์",
+    IGUI_Shortcut_SlotSize = "ขนาดช่อง",
+    IGUI_Shortcut_ControlWidgetPosition = "ทิศทางของวิดเจ็ตควบคุม",
+    IGUI_Shortcut_ResetSettings = "รีเซ็ตทั้งหมด",
+    IGUI_Shortcut_BackgroundAlpha = "ความโปร่งใสของพื้นหลัง",
+    IGUI_Shortcut_SlotAlpha = "ความโปร่งใสของช่อง",
+    IGUI_Shortcut_Hotkey = "ปุ่มลัด",
+}

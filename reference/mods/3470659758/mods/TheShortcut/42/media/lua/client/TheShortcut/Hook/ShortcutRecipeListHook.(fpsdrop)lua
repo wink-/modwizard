@@ -1,0 +1,138 @@
+
+-- 现在这种方式会使制作界面变得很卡顿，之后考虑优化后再重新变回这种方式
+
+-- ------------------------------------------------------ --
+-- 保存原始函数引用
+-- ------------------------------------------------------ --
+local original_createChildren = ISWidgetRecipeListPanel.createChildren
+
+-- ------------------------------------------------------ --
+-- 按钮纹理
+-- ------------------------------------------------------ --
+local SHORTCUT_BUTTON_TEXTURE = getTexture("media/ui/TheShortCut/Icon/Icon_Add.png")
+local FONT_SCALE = getTextManager():getFontHeight(UIFont.Small) / 19
+local ICON_SCALE = math.max(1, (FONT_SCALE - math.floor(FONT_SCALE)) < 0.5 and math.floor(FONT_SCALE) or math.ceil(FONT_SCALE))
+local SHORTCUT_BUTTON_SIZE = 20 * ICON_SCALE
+
+-- ------------------------------------------------------ --
+-- 点击处理函数
+-- ------------------------------------------------------ --
+local function handleRecipeShortcutClick(recipe)
+    if not recipe then return end
+    
+    -- 添加按钮音效
+    getSoundManager():playUISound("UIActivateButton")
+    
+    local isBuildingRecipe = false
+    
+    if SpriteConfigManager and SpriteConfigManager.GetObjectInfo then
+        local objInfo = SpriteConfigManager.GetObjectInfo(tostring(recipe:getName()))
+        if objInfo then
+            isBuildingRecipe = true
+        end
+    end
+    
+    local recipeData = {
+        name = recipe:getName(),
+        module = recipe:getModule():getName()
+    }
+    
+    local success = false
+    
+    if isBuildingRecipe then
+        success = Shortcut.addBuildingToSlot(recipeData)
+    else
+        success = Shortcut.addRecipeToSlot(recipeData)
+    end
+    
+    if success and not Shortcut.panel then
+        Shortcut.createPanel()
+    end
+end
+
+-- ------------------------------------------------------ --
+-- 重写ISWidgetRecipeListPanel的createChildren方法
+-- ------------------------------------------------------ --
+function ISWidgetRecipeListPanel:createChildren()
+    original_createChildren(self)
+    
+    local original_doDrawItem = self.recipeListPanel.doDrawItem
+    
+    -- 存储每个项目的按钮数据
+    self.shortcutButtonsData = {}
+
+    self.recipeListPanel.doDrawItem = function(_self, _y, _item, _alt)
+        local y = original_doDrawItem(_self, _y, _item, _alt)
+        
+        -- 获取当前配方
+        local craftRecipe = _item and _item.item
+        if craftRecipe then
+            -- 计算图标的位置和大小
+            local UI_BORDER_SPACING = 10
+            local iconX = UI_BORDER_SPACING 
+            local iconY = _y + (_item.height/2) - (_self.itemheight/2) + 2 
+            local iconSize = _self.itemheight - 4
+            
+            -- 计算行高和按钮位置
+            local rowHeight = _item.height or _self.itemheight
+            local yPadding = 5 -- 距离行底部的距离
+            
+            -- X轴位置
+            local buttonX = iconX + iconSize - SHORTCUT_BUTTON_SIZE - 2 
+            
+            -- Y轴位置
+            local buttonY = _y + rowHeight - SHORTCUT_BUTTON_SIZE - yPadding
+            
+            _self:drawTextureScaledAspect(SHORTCUT_BUTTON_TEXTURE, buttonX, buttonY, 
+                                         SHORTCUT_BUTTON_SIZE, SHORTCUT_BUTTON_SIZE, 
+                                         1, 0.8, 0.8, 0.8)
+            
+            -- 存储按钮数据
+            local buttonId = tostring(_item.index)
+            self.shortcutButtonsData[buttonId] = {
+                x = buttonX,
+                y = buttonY,
+                width = SHORTCUT_BUTTON_SIZE,
+                height = SHORTCUT_BUTTON_SIZE,
+                recipe = craftRecipe,
+                itemIndex = _item.index,
+                rowY = _y,
+                rowHeight = rowHeight
+            }
+        end
+        
+        return y
+    end
+    
+    -- 鼠标点击事件处理
+    local original_onMouseDown = self.recipeListPanel.onMouseDown
+    self.recipeListPanel.onMouseDown = function(_self, x, y)
+        -- 通过检查当前可见的项目来确定点击是否在快捷方式按钮上
+        local clickedRow = _self:rowAt(x, y)
+        if clickedRow > 0 and clickedRow <= #_self.items then
+            local buttonId = tostring(clickedRow)
+            local data = self.shortcutButtonsData[buttonId]
+            
+            if data then
+                if x >= data.x and x <= data.x + data.width and
+                   y >= data.y and y <= data.y + data.height then
+                    handleRecipeShortcutClick(data.recipe)
+                    return
+                end
+            end
+        end
+        
+        if original_onMouseDown then
+            original_onMouseDown(_self, x, y)
+        end
+    end
+    
+    local original_onScrolled = self.recipeListPanel.onScrolled
+    self.recipeListPanel.onScrolled = function(_self)
+        self.shortcutButtonsData = {}
+        
+        if original_onScrolled then
+            original_onScrolled(_self)
+        end
+    end
+end

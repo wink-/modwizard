@@ -1,0 +1,2590 @@
+tileGeometry
+{
+	VERSION = 2,
+
+	tileset
+	{
+		name = fe_appletree,
+
+		/* fe_appletree_0 */
+		tile
+		{
+			xy = 0x0,
+
+			cylinder
+			{
+				translate = 387x-300x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 361,
+			}
+
+			cylinder
+			{
+				translate = 0x868x-589,
+				rotate = 2700000x0x0,
+				radius1 = 856,
+				radius2 = 856,
+				height = 1736,
+			}
+		}
+
+		/* fe_appletree_1 */
+		tile
+		{
+			xy = 1x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = -286x2543x581,
+				rotate = 0x0x0,
+				min = -1395x0x-1370,
+				max = 1395x3833x1370,
+			}
+		}
+
+		/* fe_appletree_2 */
+		tile
+		{
+			xy = 2x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = 67x2543x842,
+				rotate = 0x0x0,
+				min = -1917x0x-1901,
+				max = 1917x6687x1901,
+			}
+		}
+
+		/* fe_appletree_3 */
+		tile
+		{
+			xy = 3x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x3446x452,
+				rotate = 2700000x0x0,
+				radius1 = 517,
+				radius2 = 517,
+				height = 6893,
+			}
+
+			box
+			{
+				translate = -1218x7034x-525,
+				rotate = 0x0x0,
+				min = -3264x0x-4215,
+				max = 3264x10214x4215,
+			}
+		}
+
+		/* fe_appletree_4 */
+		tile
+		{
+			xy = 4x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_5 */
+		tile
+		{
+			xy = 5x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_6 */
+		tile
+		{
+			xy = 6x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_7 */
+		tile
+		{
+			xy = 7x0,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_8 */
+		tile
+		{
+			xy = 0x1,
+
+			cylinder
+			{
+				translate = 387x-300x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 361,
+			}
+
+			cylinder
+			{
+				translate = 0x868x-589,
+				rotate = 2700000x0x0,
+				radius1 = 856,
+				radius2 = 856,
+				height = 1736,
+			}
+		}
+
+		/* fe_appletree_9 */
+		tile
+		{
+			xy = 1x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = -286x2543x581,
+				rotate = 0x0x0,
+				min = -1395x0x-1370,
+				max = 1395x3833x1370,
+			}
+		}
+
+		/* fe_appletree_10 */
+		tile
+		{
+			xy = 2x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = 67x2543x842,
+				rotate = 0x0x0,
+				min = -1917x0x-1901,
+				max = 1917x6687x1901,
+			}
+		}
+
+		/* fe_appletree_11 */
+		tile
+		{
+			xy = 3x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x3446x452,
+				rotate = 2700000x0x0,
+				radius1 = 517,
+				radius2 = 517,
+				height = 6893,
+			}
+
+			box
+			{
+				translate = -1218x7034x-525,
+				rotate = 0x0x0,
+				min = -3264x0x-4215,
+				max = 3264x10214x4215,
+			}
+		}
+
+		/* fe_appletree_12 */
+		tile
+		{
+			xy = 4x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_13 */
+		tile
+		{
+			xy = 5x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_14 */
+		tile
+		{
+			xy = 6x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_15 */
+		tile
+		{
+			xy = 7x1,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_16 */
+		tile
+		{
+			xy = 0x2,
+
+			cylinder
+			{
+				translate = 387x-300x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 361,
+			}
+
+			cylinder
+			{
+				translate = 0x868x-589,
+				rotate = 2700000x0x0,
+				radius1 = 856,
+				radius2 = 856,
+				height = 1736,
+			}
+		}
+
+		/* fe_appletree_17 */
+		tile
+		{
+			xy = 1x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = -286x2543x581,
+				rotate = 0x0x0,
+				min = -1395x0x-1370,
+				max = 1395x3833x1370,
+			}
+		}
+
+		/* fe_appletree_18 */
+		tile
+		{
+			xy = 2x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = 67x2543x842,
+				rotate = 0x0x0,
+				min = -1917x0x-1901,
+				max = 1917x6687x1901,
+			}
+		}
+
+		/* fe_appletree_19 */
+		tile
+		{
+			xy = 3x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x3446x452,
+				rotate = 2700000x0x0,
+				radius1 = 517,
+				radius2 = 517,
+				height = 6893,
+			}
+
+			box
+			{
+				translate = -1218x7034x-525,
+				rotate = 0x0x0,
+				min = -3264x0x-4215,
+				max = 3264x10214x4215,
+			}
+		}
+
+		/* fe_appletree_20 */
+		tile
+		{
+			xy = 4x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_21 */
+		tile
+		{
+			xy = 5x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_22 */
+		tile
+		{
+			xy = 6x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_23 */
+		tile
+		{
+			xy = 7x2,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_24 */
+		tile
+		{
+			xy = 0x3,
+
+			cylinder
+			{
+				translate = 387x-300x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 361,
+			}
+
+			cylinder
+			{
+				translate = 0x868x-589,
+				rotate = 2700000x0x0,
+				radius1 = 856,
+				radius2 = 856,
+				height = 1736,
+			}
+		}
+
+		/* fe_appletree_25 */
+		tile
+		{
+			xy = 1x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = -286x2543x581,
+				rotate = 0x0x0,
+				min = -1395x0x-1370,
+				max = 1395x3833x1370,
+			}
+		}
+
+		/* fe_appletree_26 */
+		tile
+		{
+			xy = 2x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x1263x0,
+				rotate = 2700000x0x0,
+				radius1 = 435,
+				radius2 = 435,
+				height = 2527,
+			}
+
+			box
+			{
+				translate = 67x2543x842,
+				rotate = 0x0x0,
+				min = -1917x0x-1901,
+				max = 1917x6687x1901,
+			}
+		}
+
+		/* fe_appletree_27 */
+		tile
+		{
+			xy = 3x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 0x3446x452,
+				rotate = 2700000x0x0,
+				radius1 = 517,
+				radius2 = 517,
+				height = 6893,
+			}
+
+			box
+			{
+				translate = -1218x7034x-525,
+				rotate = 0x0x0,
+				min = -3264x0x-4215,
+				max = 3264x10214x4215,
+			}
+		}
+
+		/* fe_appletree_28 */
+		tile
+		{
+			xy = 4x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_29 */
+		tile
+		{
+			xy = 5x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_30 */
+		tile
+		{
+			xy = 6x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_31 */
+		tile
+		{
+			xy = 7x3,
+
+			cylinder
+			{
+				translate = 387x-248x538,
+				rotate = 2700000x0x0,
+				radius1 = 2271,
+				radius2 = 2271,
+				height = 464,
+			}
+
+			cylinder
+			{
+				translate = 514x5842x41,
+				rotate = 2700000x0x0,
+				radius1 = 620,
+				radius2 = 620,
+				height = 11686,
+			}
+
+			cylinder
+			{
+				translate = -3894x14349x-4019,
+				rotate = 2700000x0x0,
+				radius1 = 6934,
+				radius2 = 6934,
+				height = 12904,
+			}
+		}
+
+		/* fe_appletree_32 */
+		tile
+		{
+			xy = 0x4,
+
+			cylinder
+			{
+				translate = 951x175x992,
+				rotate = 2700000x0x0,
+				radius1 = 3235,
+				radius2 = 3235,
+				height = 351,
+			}
+		}
+
+		/* fe_appletree_33 */
+		tile
+		{
+			xy = 1x4,
+
+			cylinder
+			{
+				translate = 1003x120x836,
+				rotate = 2700000x0x0,
+				radius1 = 2404,
+				radius2 = 2404,
+				height = 241,
+			}
+
+			cylinder
+			{
+				translate = 0x3334x0,
+				rotate = 2700000x0x0,
+				radius1 = 1322,
+				radius2 = 1322,
+				height = 6668,
+			}
+		}
+
+		/* fe_appletree_34 */
+		tile
+		{
+			xy = 2x4,
+
+			cylinder
+			{
+				translate = 885x102x811,
+				rotate = 2700000x0x0,
+				radius1 = 2465,
+				radius2 = 2465,
+				height = 204,
+			}
+
+			cylinder
+			{
+				translate = 446x932x234,
+				rotate = 2700000x0x0,
+				radius1 = 527,
+				radius2 = 527,
+				height = 1865,
+			}
+		}
+
+		/* fe_appletree_35 */
+		tile
+		{
+			xy = 3x4,
+
+			cylinder
+			{
+				translate = 948x196x1095,
+				rotate = 2700000x0x0,
+				radius1 = 3148,
+				radius2 = 3148,
+				height = 392,
+			}
+
+			cylinder
+			{
+				translate = 1617x3921x1533,
+				rotate = 2700000x0x0,
+				radius1 = 762,
+				radius2 = 762,
+				height = 7086,
+			}
+
+			cylinder
+			{
+				translate = 1682x10319x1544,
+				rotate = 2700000x0x0,
+				radius1 = 1787,
+				radius2 = 1787,
+				height = 5666,
+			}
+
+			cylinder
+			{
+				translate = -1003x10398x4013,
+				rotate = -10524x-452123x0,
+				radius1 = 1009,
+				radius2 = 1009,
+				height = 5750,
+			}
+
+			cylinder
+			{
+				translate = -1302x14631x1488,
+				rotate = -899999x-434275x0,
+				radius1 = 1240,
+				radius2 = 1240,
+				height = 8187,
+			}
+
+			cylinder
+			{
+				translate = 4418x10914x-1416,
+				rotate = -1641051x434984x647083,
+				radius1 = 1439,
+				radius2 = 1439,
+				height = 7393,
+			}
+
+			cylinder
+			{
+				translate = -3282x14076x2507,
+				rotate = -102670x-675905x663604,
+				radius1 = 574,
+				radius2 = 574,
+				height = 2903,
+			}
+		}
+
+		/* fe_appletree_36 */
+		tile
+		{
+			xy = 4x4,
+
+			cylinder
+			{
+				translate = 0x159x0,
+				rotate = 2700000x0x0,
+				radius1 = 5000,
+				radius2 = 5000,
+				height = 318,
+			}
+
+			cylinder
+			{
+				translate = 620x3088x27,
+				rotate = 2700000x0x0,
+				radius1 = 1208,
+				radius2 = 1208,
+				height = 5444,
+			}
+
+			box
+			{
+				translate = 1471x0x-2586,
+				rotate = 0x439706x0,
+				min = -1287x0x-571,
+				max = 1287x5061x571,
+			}
+		}
+
+		/* fe_appletree_37 */
+		tile
+		{
+			xy = 5x4,
+
+			cylinder
+			{
+				translate = 0x159x0,
+				rotate = 2700000x0x0,
+				radius1 = 5000,
+				radius2 = 5000,
+				height = 318,
+			}
+
+			cylinder
+			{
+				translate = 620x3088x27,
+				rotate = 2700000x0x0,
+				radius1 = 1208,
+				radius2 = 1208,
+				height = 5444,
+			}
+
+			box
+			{
+				translate = 1471x0x-2586,
+				rotate = 0x439706x0,
+				min = -1287x0x-571,
+				max = 1287x5061x571,
+			}
+		}
+
+		/* fe_appletree_38 */
+		tile
+		{
+			xy = 6x4,
+
+			cylinder
+			{
+				translate = 0x159x0,
+				rotate = 2700000x0x0,
+				radius1 = 5000,
+				radius2 = 5000,
+				height = 318,
+			}
+
+			cylinder
+			{
+				translate = 620x3088x27,
+				rotate = 2700000x0x0,
+				radius1 = 1208,
+				radius2 = 1208,
+				height = 5444,
+			}
+
+			box
+			{
+				translate = 1471x0x-2586,
+				rotate = 0x439706x0,
+				min = -1287x0x-571,
+				max = 1287x5061x571,
+			}
+		}
+
+		/* fe_appletree_39 */
+		tile
+		{
+			xy = 7x4,
+
+			cylinder
+			{
+				translate = 0x159x0,
+				rotate = 2700000x0x0,
+				radius1 = 5000,
+				radius2 = 5000,
+				height = 318,
+			}
+
+			cylinder
+			{
+				translate = 620x3088x27,
+				rotate = 2700000x0x0,
+				radius1 = 1208,
+				radius2 = 1208,
+				height = 5444,
+			}
+
+			box
+			{
+				translate = 1471x0x-2586,
+				rotate = 0x439706x0,
+				min = -1287x0x-571,
+				max = 1287x5061x571,
+			}
+		}
+	}
+
+	tileset
+	{
+		name = fe_tiles,
+
+		/* fe_tiles_0 */
+		tile
+		{
+			xy = 0x0,
+
+			box
+			{
+				translate = 0x0x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x9269x5000,
+			}
+
+			properties
+			{
+				Surface = 36,
+			}
+		}
+
+		/* fe_tiles_1 */
+		tile
+		{
+			xy = 1x0,
+
+			box
+			{
+				translate = 0x0x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x9365x5000,
+			}
+
+			properties
+			{
+				Surface = 36,
+			}
+		}
+
+		/* fe_tiles_2 */
+		tile
+		{
+			xy = 2x0,
+
+			cylinder
+			{
+				translate = 2551x4003x-2717,
+				rotate = -899999x0x0,
+				radius1 = 2428,
+				radius2 = 2428,
+				height = 8007,
+			}
+
+			cylinder
+			{
+				translate = 3185x10512x-3129,
+				rotate = -899999x0x0,
+				radius1 = 100,
+				radius2 = 100,
+				height = 5025,
+			}
+
+			cylinder
+			{
+				translate = 2179x12602x-2694,
+				rotate = -899999x0x0,
+				radius1 = 618,
+				radius2 = 618,
+				height = 4979,
+			}
+
+			cylinder
+			{
+				translate = 2877x13001x-3033,
+				rotate = 1793487x729430x906812,
+				radius1 = 220,
+				radius2 = 220,
+				height = 586,
+			}
+
+			cylinder
+			{
+				translate = 785x11542x-2592,
+				rotate = -899999x0x0,
+				radius1 = 666,
+				radius2 = 666,
+				height = 5802,
+			}
+
+			cylinder
+			{
+				translate = -1106x10307x-2321,
+				rotate = -899999x0x0,
+				radius1 = 876,
+				radius2 = 876,
+				height = 4782,
+			}
+
+			cylinder
+			{
+				translate = -3356x8860x-2237,
+				rotate = -899999x0x0,
+				radius1 = 837,
+				radius2 = 837,
+				height = 6411,
+			}
+
+			cylinder
+			{
+				translate = -2536x4105x-2487,
+				rotate = -899999x0x0,
+				radius1 = 153,
+				radius2 = 153,
+				height = 3378,
+			}
+
+			cylinder
+			{
+				translate = -1654x1258x-1972,
+				rotate = -899999x0x0,
+				radius1 = 1131,
+				radius2 = 1131,
+				height = 2566,
+			}
+		}
+
+		/* fe_tiles_3 */
+		tile
+		{
+			xy = 3x0,
+
+			cylinder
+			{
+				translate = -2717x4003x2738,
+				rotate = -900000x0x900000,
+				radius1 = 2428,
+				radius2 = 2428,
+				height = 8007,
+			}
+
+			cylinder
+			{
+				translate = -3163x10512x3109,
+				rotate = -900000x0x900000,
+				radius1 = 129,
+				radius2 = 129,
+				height = 5025,
+			}
+
+			cylinder
+			{
+				translate = -2694x12602x2308,
+				rotate = -900000x0x900000,
+				radius1 = 618,
+				radius2 = 618,
+				height = 4979,
+			}
+
+			cylinder
+			{
+				translate = -3040x13054x2911,
+				rotate = -2018x-354388x-900000,
+				radius1 = 220,
+				radius2 = 220,
+				height = 586,
+			}
+
+			cylinder
+			{
+				translate = -2615x11542x619,
+				rotate = -900000x0x900000,
+				radius1 = 666,
+				radius2 = 666,
+				height = 5802,
+			}
+
+			cylinder
+			{
+				translate = -2321x10307x-1173,
+				rotate = -900000x0x900000,
+				radius1 = 876,
+				radius2 = 876,
+				height = 4782,
+			}
+
+			cylinder
+			{
+				translate = -2237x8860x-3297,
+				rotate = -900000x0x900000,
+				radius1 = 837,
+				radius2 = 837,
+				height = 6411,
+			}
+
+			cylinder
+			{
+				translate = -2487x4105x-2569,
+				rotate = -900000x0x900000,
+				radius1 = 153,
+				radius2 = 153,
+				height = 3378,
+			}
+
+			cylinder
+			{
+				translate = -1972x1258x-1792,
+				rotate = -900000x0x900000,
+				radius1 = 1131,
+				radius2 = 1131,
+				height = 2566,
+			}
+		}
+	}
+
+	tileset
+	{
+		name = fe_grapevines,
+
+		/* fe_grapevines_0 */
+		tile
+		{
+			xy = 0x0,
+
+			box
+			{
+				translate = -2577x359x1952,
+				rotate = 0x0x0,
+				min = -2422x0x-2226,
+				max = 2422x12421x2226,
+			}
+
+			box
+			{
+				translate = 2516x359x1966,
+				rotate = 0x0x0,
+				min = -2703x0x-2227,
+				max = 2703x12421x2227,
+			}
+
+			box
+			{
+				translate = -2436x359x-2490,
+				rotate = 0x0x0,
+				min = -2422x0x-2227,
+				max = 2422x12421x2227,
+			}
+
+			box
+			{
+				translate = 2354x359x-2620,
+				rotate = 0x0x0,
+				min = -2518x0x-2410,
+				max = 2518x12421x2410,
+			}
+
+			box
+			{
+				translate = 0x0x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x361x5000,
+			}
+		}
+
+		/* fe_grapevines_1 */
+		tile
+		{
+			xy = 1x0,
+
+			box
+			{
+				translate = -2577x359x1931,
+				rotate = 0x0x0,
+				min = -2422x0x-2226,
+				max = 2422x12421x2226,
+			}
+
+			box
+			{
+				translate = 2495x359x1966,
+				rotate = 0x0x0,
+				min = -2703x0x-2227,
+				max = 2703x12421x2227,
+			}
+
+			box
+			{
+				translate = -2445x359x-2490,
+				rotate = 0x0x0,
+				min = -2422x0x-2227,
+				max = 2422x12421x2227,
+			}
+
+			box
+			{
+				translate = 2354x359x-2781,
+				rotate = 0x0x0,
+				min = -2518x0x-2410,
+				max = 2518x12421x2410,
+			}
+
+			box
+			{
+				translate = 0x0x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x361x5000,
+			}
+		}
+
+		/* fe_grapevines_2 */
+		tile
+		{
+			xy = 2x0,
+
+			box
+			{
+				translate = -2577x359x1839,
+				rotate = 0x0x0,
+				min = -2422x0x-2226,
+				max = 2422x12421x2226,
+			}
+
+			box
+			{
+				translate = 2495x359x1738,
+				rotate = 0x0x0,
+				min = -2703x0x-2227,
+				max = 2703x12421x2227,
+			}
+
+			box
+			{
+				translate = -2445x359x-2623,
+				rotate = 0x0x0,
+				min = -2422x0x-2227,
+				max = 2422x12421x2227,
+			}
+
+			box
+			{
+				translate = 2354x359x-2848,
+				rotate = 0x0x0,
+				min = -2518x0x-2410,
+				max = 2518x12421x2410,
+			}
+
+			box
+			{
+				translate = 0x0x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x361x5000,
+			}
+		}
+
+		/* fe_grapevines_3 */
+		tile
+		{
+			xy = 3x0,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_4 */
+		tile
+		{
+			xy = 4x0,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_5 */
+		tile
+		{
+			xy = 5x0,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_6 */
+		tile
+		{
+			xy = 6x0,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_7 */
+		tile
+		{
+			xy = 7x0,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_8 */
+		tile
+		{
+			xy = 0x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_9 */
+		tile
+		{
+			xy = 1x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_10 */
+		tile
+		{
+			xy = 2x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_11 */
+		tile
+		{
+			xy = 3x1,
+
+			box
+			{
+				translate = -33x0x-75,
+				rotate = 0x0x0,
+				min = -4966x0x-4283,
+				max = 4966x13101x4283,
+			}
+		}
+
+		/* fe_grapevines_12 */
+		tile
+		{
+			xy = 4x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_13 */
+		tile
+		{
+			xy = 5x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_14 */
+		tile
+		{
+			xy = 6x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_15 */
+		tile
+		{
+			xy = 7x1,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_16 */
+		tile
+		{
+			xy = 0x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_17 */
+		tile
+		{
+			xy = 1x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_18 */
+		tile
+		{
+			xy = 2x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_19 */
+		tile
+		{
+			xy = 3x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_20 */
+		tile
+		{
+			xy = 4x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_21 */
+		tile
+		{
+			xy = 5x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_22 */
+		tile
+		{
+			xy = 6x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_23 */
+		tile
+		{
+			xy = 7x2,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_24 */
+		tile
+		{
+			xy = 0x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_25 */
+		tile
+		{
+			xy = 1x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_26 */
+		tile
+		{
+			xy = 2x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_27 */
+		tile
+		{
+			xy = 3x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_28 */
+		tile
+		{
+			xy = 4x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13101x4258,
+			}
+		}
+
+		/* fe_grapevines_29 */
+		tile
+		{
+			xy = 5x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_30 */
+		tile
+		{
+			xy = 6x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_31 */
+		tile
+		{
+			xy = 7x3,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x13686x4258,
+			}
+		}
+
+		/* fe_grapevines_32 */
+		tile
+		{
+			xy = 0x4,
+
+			box
+			{
+				translate = -33x0x-50,
+				rotate = 0x0x0,
+				min = -4966x0x-4258,
+				max = 4966x7016x4258,
+			}
+		}
+	}
+
+	tileset
+	{
+		name = fe_cherrytree,
+
+		/* fe_cherrytree_1 */
+		tile
+		{
+			xy = 1x0,
+
+			cylinder
+			{
+				translate = 444x1928x978,
+				rotate = 2700000x0x0,
+				radius1 = 283,
+				radius2 = 283,
+				height = 3686,
+			}
+
+			cylinder
+			{
+				translate = 692x76x1457,
+				rotate = 2700000x0x0,
+				radius1 = 3155,
+				radius2 = 3155,
+				height = 152,
+			}
+
+			cylinder
+			{
+				translate = 431x5832x883,
+				rotate = 2700000x0x0,
+				radius1 = 1930,
+				radius2 = 1930,
+				height = 4144,
+			}
+		}
+
+		/* fe_cherrytree_2 */
+		tile
+		{
+			xy = 2x0,
+
+			cylinder
+			{
+				translate = 373x101x660,
+				rotate = 2700000x0x0,
+				radius1 = 2993,
+				radius2 = 2993,
+				height = 203,
+			}
+
+			cylinder
+			{
+				translate = 0x2135x288,
+				rotate = 2700000x0x0,
+				radius1 = 470,
+				radius2 = 470,
+				height = 3865,
+			}
+
+			cylinder
+			{
+				translate = 0x7189x0,
+				rotate = 2700000x0x0,
+				radius1 = 3500,
+				radius2 = 3500,
+				height = 6224,
+			}
+		}
+
+		/* fe_cherrytree_3 */
+		tile
+		{
+			xy = 3x0,
+
+			cylinder
+			{
+				translate = 220x93x686,
+				rotate = 2700000x0x0,
+				radius1 = 2824,
+				radius2 = 2824,
+				height = 185,
+			}
+
+			cylinder
+			{
+				translate = 0x3623x539,
+				rotate = 2700000x0x0,
+				radius1 = 733,
+				radius2 = 733,
+				height = 7247,
+			}
+
+			box
+			{
+				translate = 96x7246x290,
+				rotate = 0x-450738x0,
+				min = -854x0x-6718,
+				max = 854x13000x6718,
+			}
+		}
+
+		/* fe_cherrytree_4 */
+		tile
+		{
+			xy = 4x0,
+
+			cylinder
+			{
+				translate = 657x63x1061,
+				rotate = 2700000x0x0,
+				radius1 = 2979,
+				radius2 = 2979,
+				height = 126,
+			}
+
+			cylinder
+			{
+				translate = 759x4884x1096,
+				rotate = 2700000x0x0,
+				radius1 = 920,
+				radius2 = 920,
+				height = 9768,
+			}
+
+			box
+			{
+				translate = 1049x9757x876,
+				rotate = 0x-450283x0,
+				min = -914x0x-7043,
+				max = 914x18710x7043,
+			}
+		}
+
+		/* fe_cherrytree_9 */
+		tile
+		{
+			xy = 1x1,
+
+			cylinder
+			{
+				translate = 444x1928x978,
+				rotate = 2700000x0x0,
+				radius1 = 283,
+				radius2 = 283,
+				height = 3686,
+			}
+
+			cylinder
+			{
+				translate = 692x76x1457,
+				rotate = 2700000x0x0,
+				radius1 = 3155,
+				radius2 = 3155,
+				height = 152,
+			}
+
+			cylinder
+			{
+				translate = 431x5832x883,
+				rotate = 2700000x0x0,
+				radius1 = 1930,
+				radius2 = 1930,
+				height = 4144,
+			}
+		}
+
+		/* fe_cherrytree_17 */
+		tile
+		{
+			xy = 1x2,
+
+			cylinder
+			{
+				translate = 444x1928x978,
+				rotate = 2700000x0x0,
+				radius1 = 283,
+				radius2 = 283,
+				height = 3686,
+			}
+
+			cylinder
+			{
+				translate = 692x76x1457,
+				rotate = 2700000x0x0,
+				radius1 = 3155,
+				radius2 = 3155,
+				height = 152,
+			}
+
+			cylinder
+			{
+				translate = 431x5832x883,
+				rotate = 2700000x0x0,
+				radius1 = 1930,
+				radius2 = 1930,
+				height = 4144,
+			}
+		}
+
+		/* fe_cherrytree_18 */
+		tile
+		{
+			xy = 2x2,
+
+			cylinder
+			{
+				translate = 373x101x660,
+				rotate = 2700000x0x0,
+				radius1 = 2993,
+				radius2 = 2993,
+				height = 203,
+			}
+
+			cylinder
+			{
+				translate = 0x2135x288,
+				rotate = 2700000x0x0,
+				radius1 = 470,
+				radius2 = 470,
+				height = 3865,
+			}
+
+			cylinder
+			{
+				translate = 0x7189x0,
+				rotate = 2700000x0x0,
+				radius1 = 3500,
+				radius2 = 3500,
+				height = 6224,
+			}
+		}
+
+		/* fe_cherrytree_19 */
+		tile
+		{
+			xy = 3x2,
+
+			cylinder
+			{
+				translate = 220x93x686,
+				rotate = 2700000x0x0,
+				radius1 = 6082,
+				radius2 = 6082,
+				height = 185,
+			}
+
+			cylinder
+			{
+				translate = 0x3623x539,
+				rotate = 2700000x0x0,
+				radius1 = 733,
+				radius2 = 733,
+				height = 7247,
+			}
+
+			box
+			{
+				translate = 225x7246x161,
+				rotate = 0x-450738x0,
+				min = -854x0x-6718,
+				max = 854x13000x6718,
+			}
+		}
+
+		/* fe_cherrytree_20 */
+		tile
+		{
+			xy = 4x2,
+
+			cylinder
+			{
+				translate = -76x63x51,
+				rotate = 2700000x0x0,
+				radius1 = 5770,
+				radius2 = 5770,
+				height = 126,
+			}
+
+			cylinder
+			{
+				translate = 759x4884x1096,
+				rotate = 2700000x0x0,
+				radius1 = 920,
+				radius2 = 920,
+				height = 9768,
+			}
+
+			box
+			{
+				translate = 1049x9757x876,
+				rotate = 0x-450283x0,
+				min = -914x0x-7043,
+				max = 914x18710x7043,
+			}
+		}
+
+		/* fe_cherrytree_25 */
+		tile
+		{
+			xy = 1x3,
+
+			cylinder
+			{
+				translate = 444x1928x978,
+				rotate = 2700000x0x0,
+				radius1 = 283,
+				radius2 = 283,
+				height = 3686,
+			}
+
+			cylinder
+			{
+				translate = 692x76x1457,
+				rotate = 2700000x0x0,
+				radius1 = 3155,
+				radius2 = 3155,
+				height = 152,
+			}
+
+			cylinder
+			{
+				translate = 431x5832x883,
+				rotate = 2700000x0x0,
+				radius1 = 1930,
+				radius2 = 1930,
+				height = 4144,
+			}
+		}
+
+		/* fe_cherrytree_26 */
+		tile
+		{
+			xy = 2x3,
+
+			cylinder
+			{
+				translate = 373x101x660,
+				rotate = 2700000x0x0,
+				radius1 = 2993,
+				radius2 = 2993,
+				height = 203,
+			}
+
+			cylinder
+			{
+				translate = 0x2135x288,
+				rotate = 2700000x0x0,
+				radius1 = 470,
+				radius2 = 470,
+				height = 3865,
+			}
+
+			cylinder
+			{
+				translate = 0x7189x0,
+				rotate = 2700000x0x0,
+				radius1 = 3500,
+				radius2 = 3500,
+				height = 6224,
+			}
+		}
+
+		/* fe_cherrytree_27 */
+		tile
+		{
+			xy = 3x3,
+
+			cylinder
+			{
+				translate = -601x93x-47,
+				rotate = 2700000x0x0,
+				radius1 = 6348,
+				radius2 = 6348,
+				height = 185,
+			}
+
+			cylinder
+			{
+				translate = 0x3623x539,
+				rotate = 2700000x0x0,
+				radius1 = 733,
+				radius2 = 733,
+				height = 7247,
+			}
+
+			box
+			{
+				translate = 96x7246x290,
+				rotate = 0x-450738x0,
+				min = -854x0x-6718,
+				max = 854x13000x6718,
+			}
+		}
+
+		/* fe_cherrytree_28 */
+		tile
+		{
+			xy = 4x3,
+
+			cylinder
+			{
+				translate = -76x63x51,
+				rotate = 2700000x0x0,
+				radius1 = 5770,
+				radius2 = 5770,
+				height = 126,
+			}
+
+			cylinder
+			{
+				translate = 759x4884x1096,
+				rotate = 2700000x0x0,
+				radius1 = 920,
+				radius2 = 920,
+				height = 9768,
+			}
+
+			box
+			{
+				translate = 1049x9757x876,
+				rotate = 0x-450283x0,
+				min = -914x0x-7043,
+				max = 914x18710x7043,
+			}
+		}
+
+		/* fe_cherrytree_33 */
+		tile
+		{
+			xy = 1x4,
+
+			cylinder
+			{
+				translate = 444x1108x978,
+				rotate = 2700000x0x0,
+				radius1 = 283,
+				radius2 = 283,
+				height = 2044,
+			}
+
+			cylinder
+			{
+				translate = 692x76x1457,
+				rotate = 2700000x0x0,
+				radius1 = 3155,
+				radius2 = 3155,
+				height = 152,
+			}
+		}
+
+		/* fe_cherrytree_34 */
+		tile
+		{
+			xy = 2x4,
+
+			cylinder
+			{
+				translate = 444x2112x735,
+				rotate = 2700000x0x0,
+				radius1 = 380,
+				radius2 = 380,
+				height = 4054,
+			}
+
+			cylinder
+			{
+				translate = 82x76x355,
+				rotate = 2700000x0x0,
+				radius1 = 3155,
+				radius2 = 3155,
+				height = 152,
+			}
+		}
+
+		/* fe_cherrytree_35 */
+		tile
+		{
+			xy = 3x4,
+
+			cylinder
+			{
+				translate = 0x68x0,
+				rotate = 2700000x0x0,
+				radius1 = 5000,
+				radius2 = 5000,
+				height = 137,
+			}
+
+			cylinder
+			{
+				translate = 0x1743x291,
+				rotate = 2700000x0x0,
+				radius1 = 771,
+				radius2 = 771,
+				height = 3486,
+			}
+		}
+
+		/* fe_cherrytree_36 */
+		tile
+		{
+			xy = 4x4,
+
+			cylinder
+			{
+				translate = 0x88x0,
+				rotate = 2700000x0x0,
+				radius1 = 6179,
+				radius2 = 6179,
+				height = 177,
+			}
+
+			cylinder
+			{
+				translate = 0x2608x393,
+				rotate = 2700000x0x0,
+				radius1 = 915,
+				radius2 = 915,
+				height = 5216,
+			}
+
+			cylinder
+			{
+				translate = 511x1832x-905,
+				rotate = 854265x370217x1475367,
+				radius1 = 894,
+				radius2 = 894,
+				height = 2976,
+			}
+		}
+	}
+}

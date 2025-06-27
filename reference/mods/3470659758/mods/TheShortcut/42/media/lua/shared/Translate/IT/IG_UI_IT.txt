@@ -1,0 +1,10 @@
+IGUI_IT = {
+    IGUI_Shortcut_RowCount = "Numero di righe",
+    IGUI_Shortcut_ColumnCount = "Numero di colonne",
+    IGUI_Shortcut_SlotSize = "Dimensione slot",
+    IGUI_Shortcut_ControlWidgetPosition = "Direzione del widget di controllo",
+    IGUI_Shortcut_ResetSettings = "Reimposta tutto",
+    IGUI_Shortcut_BackgroundAlpha = "Trasparenza sfondo",
+    IGUI_Shortcut_SlotAlpha = "Trasparenza slot",
+    IGUI_Shortcut_Hotkey = "Tasto rapido",
+}

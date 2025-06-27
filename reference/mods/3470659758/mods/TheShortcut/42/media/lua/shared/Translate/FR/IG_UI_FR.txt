@@ -1,0 +1,10 @@
+IGUI_FR = {
+    IGUI_Shortcut_RowCount = "Nombre de lignes",
+    IGUI_Shortcut_ColumnCount = "Nombre de colonnes",
+    IGUI_Shortcut_SlotSize = "Taille d'emplacement",
+    IGUI_Shortcut_ControlWidgetPosition = "Contrôler la direction du widget",
+    IGUI_Shortcut_ResetSettings = "Tout réinitialiser",
+    IGUI_Shortcut_BackgroundAlpha = "Transparence d'arrière-plan",
+    IGUI_Shortcut_SlotAlpha = "Transparence d'emplacements",
+    IGUI_Shortcut_Hotkey = "Raccourci clavier",
+}

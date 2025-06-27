@@ -1,0 +1,10 @@
+IGUI_HU = {
+    IGUI_Shortcut_RowCount = "Sorok száma",
+    IGUI_Shortcut_ColumnCount = "Oszlopok száma",
+    IGUI_Shortcut_SlotSize = "Slot mérete",
+    IGUI_Shortcut_ControlWidgetPosition = "Vezérlő iránya",
+    IGUI_Shortcut_ResetSettings = "Összes visszaállítása",
+    IGUI_Shortcut_BackgroundAlpha = "Háttér átlátszósága",
+    IGUI_Shortcut_SlotAlpha = "Slot átlátszósága",
+    IGUI_Shortcut_Hotkey = "Gyorsbillentyű",
+}
