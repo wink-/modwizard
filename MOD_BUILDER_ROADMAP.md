@@ -5,7 +5,7 @@ This document outlines the plan to evolve the PZ Mod Builder into a more compreh
 ## Core Pillars
 
 ### Pillar 1: Project-Based Workflow
-Instead of opening and saving single `.json` files, the Studio will manage a complete mod project folder.
+The Studio will manage a complete mod project folder.
 
 *   **New Mod Wizard:** When a user creates a new mod, the tool will automatically generate the entire standard Project Zomboid directory structure (`MyMod/Contents/mods/MyMod/42/media/...`) and the necessary `mod.info` files.
 *   **Project Explorer:** The main view will be a file tree of the mod's folder, allowing the user to easily navigate and manage all their files (scripts, Lua, textures, sounds, etc.).
@@ -24,10 +24,10 @@ To simplify complex tasks, the Studio will include helper tools:
 *   **Loot Distribution Manager:** A UI that lets users visually add their items to different in-game loot tables (e.g., "CrateFarming", "GigamartFarming") without writing Lua code.
 *   **Tile & Asset Manager:** A tool to help users define custom tiles, associate them with textures, and manage their properties for in-game rendering.
 
-## Plan of Action: The First Step
 
-The most logical and impactful first step is to implement **Pillar 1: The Project-Based Workflow**. This lays the foundation for all other features.
+## Reference Material
 
-1.  **Modify the "New Mod" action:** Instead of creating a blank slate, it will now prompt the user for a mod name and ID, then generate the complete, valid mod folder structure on their disk.
-2.  **Change "Open Mod" and "Save Mod":** These will now work with the mod's root folder, not a `.json` file. The tool will save item and recipe data into a `project.json` file inside the mod's folder.
-3.  **Adapt the "Export" function:** The "Export Mod Folder" logic will be repurposed to "Build" the mod, ensuring all generated files (scripts, `mod.info`, etc.) are correctly placed within the project structure.
+1. **Original game scripts:** All of the vanilla scripts are found in media/scripts directory.
+2. **Project Zomboid Wiki:** Several of the instructional files from the pzwiki.net can be found in the reference directory.
+3. **Sample Mods:** A couple sample mods can be found in reference/mods directory.
+4. **Sqlite Database of Vanilla Project Zomboid Items:** A sqlite database of the vanilla items and recipes from scripts can be found in vanilla_database.db
